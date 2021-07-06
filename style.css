@@ -2,7 +2,33 @@ body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
 }
-
+nav{
+    position: fixed; 
+    width: 100%; 
+    z-index: 1;
+    top: 0;
+}
+nav ul{
+    text-align: end;
+    list-style-type: none;
+    padding: 20px 0; 
+    margin:0;
+    background-color: black;
+    width: 100%;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 0 ;
+    color: white;
+}
+li a:hover{
+    
+    color: tomato;
+}
 section{
     height: 500px;
     width: 100%;
@@ -31,7 +57,7 @@ h2 {
 #skip{
     color: rgb(243, 159, 63);
 }
-a{
+.link{
     text-decoration: none;
     margin: 40px;
     padding: 15px 40px;
@@ -87,6 +113,19 @@ a{
     font-size: 35px;
     color: rgb(94, 88, 88);
 }
+.stat{
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin-left: 20%;
+    width: 60%;
+    display: flex;
+    box-shadow: 1px 7px 20px gray;
+}
+.stat-item{
+    padding-left: 12%;
+    width: 33%;
+}
+
 footer {
     padding-top: 30px;
     padding-bottom: 90px;
