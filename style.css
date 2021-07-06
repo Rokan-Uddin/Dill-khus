@@ -36,6 +36,7 @@ section{
     padding-left: 100px;
 }
 .food-banner-half{
+    margin-left: 50px;
     width: 45%;
     float: left;
 }
@@ -74,7 +75,7 @@ h2 {
 }
 .about-half p{
     width: 70%;
-    margin-left: 20px;
+    margin-left: 20%;
     margin-bottom: 100px;
 }
 .about-half img{
@@ -83,8 +84,11 @@ h2 {
     width: 50%;
 }
 .about-half h1{
-    margin-left: 20px;
+    margin-left: 20%;
     color: gray;
+}
+.about-half a{
+    margin-left: 20%;
 }
 
 .my-recipies {
@@ -116,7 +120,7 @@ h2 {
 .stat{
     border-radius: 20px;
     padding: 0px 20px;
-    margin-left: 20%;
+    margin-left: 25%;
     width: 60%;
     display: flex;
     box-shadow: 1px 7px 20px gray;
@@ -125,7 +129,20 @@ h2 {
     padding-left: 12%;
     width: 33%;
 }
-
+.connect-us{
+    padding: 5px 0px;
+    margin-left: 10%;
+    width: 50%;
+}
+.logo{
+    padding: 8px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+input{
+    padding: 10px;
+}
 footer {
     padding-top: 30px;
     padding-bottom: 90px;
