@@ -25,16 +25,14 @@ li a{
     margin: 0 ;
     color: white;
 }
-li a:hover{
-    
-    color: tomato;
-}
+
 section{
     height: 500px;
-    width: 100%;
+    width: 90%;
     margin-top: 100px;
 }
 .food-banner {
+    margin-left: 2.5%;
     padding-left: 100px;
 }
 .food-banner-half{
@@ -42,7 +40,7 @@ section{
     float: left;
 }
 .food-banner-half img{
-    width: 100%;
+    width: 80%;
 }
 .food-banner-half p{
     margin-bottom: 100px;
@@ -67,6 +65,7 @@ h2 {
 }
 .about{
     background-image: url("images/7.png");
+    width: 100%;
     background-repeat: no-repeat;
 }
 .about-half{
@@ -89,11 +88,12 @@ h2 {
 }
 
 .my-recipies {
-    margin: 25px;
-    padding: 30px;
+    margin-left: 5%;
+    padding: 0px 30px 0px 30px;
 }
 .my-recipies-half {
     width: 23%;
+    height: 83%;
     float: left;
     padding: 20px;
     margin: 0px 30px 0px 30px;
@@ -107,7 +107,7 @@ h2 {
 }
 .heading{
     text-align: center;
-    margin: 0px 350px 0px 350px;
+    margin: 0px 30px 0px 50px;
 }
 .heading h2{
     font-size: 35px;
