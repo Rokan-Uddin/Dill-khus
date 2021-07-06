@@ -26,6 +26,7 @@
             <li> <a href="#aboutID"> ABOUT </a></li>
             <li> <a href="#recipes"> RECIPES </a></li>
             <li> <a href="#stats"> STATS </a></li>
+            <li> <a href="#contactID">CONTACT</a> </li>
         </ul>
     </nav>
     <section id="home" class="food-banner">
@@ -98,7 +99,7 @@
             </div>
         </div>
     </section>
-    <div style="display: flex; border-top: 5px dotted rgb(71, 49, 49);">
+    <div id="contactID" style="display: flex; border-top: 5px dotted rgb(71, 49, 49);">
         <div class="connect-us">
             <h3 style="margin-left: 20px;">Stay Connected with us.</h3>
             <a target="_blank" href="https://www.facebook.com/"> <img class="logo" src="images/fb.png" alt=""> </a>
@@ -108,8 +109,11 @@
         </div>
         <div class="contact-us">
             <h3>Sign-up to get our upcoming offer:-</h3>
-            <input type="text" id="lname" name="lname" placeholder="Enter your Email">
-            <input type="submit" value="Submit">
+            <form action="#home">
+                <input type="text" id="lname" name="lname" placeholder="Enter your Email">
+                <input href="#home" type="submit" value="Submit">
+            </form>
+
         </div>
     </div>
     <footer>
